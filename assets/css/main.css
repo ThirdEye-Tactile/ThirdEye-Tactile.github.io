@@ -192,7 +192,9 @@
 	#features-wrapper {
 		background-color: #E0C266;
 		/*padding: 3em 0 3em 0;*/
-		padding: 6em 0 4em 0;
+		padding: 120px 0px 80px 230px;
+		/*margin-left: 370px;
+		margin-right: 370px;*/
 	}
 
 /* Containers */
@@ -2138,12 +2140,13 @@
 
 		.box.feature {
 			padding: 0;
-			height: 700px;
+			height: 380px;
 			overflow: hidden;
 		}
 
 			.box.feature .inner {
-				padding: 4em 2em 3em 2em;
+				text-align: center;
+				padding: 1em 0em 1em 0em;
 			}
 
 			.box.feature h2 {
@@ -2290,12 +2293,13 @@
 		}
 
 			.image.fit img {
-				width: 100%;
+				/*width: 100%;*/
 			}
 
 		.image.featured {
 			display: block;
 			width: 100%;
+			padding-top: 10px;
 			/*margin: 0 0 2.5em 0;*/
 		}
 
